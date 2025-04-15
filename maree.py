@@ -169,7 +169,7 @@ if response.status_code == 200:
  html_content=match.group(0)
 
 
-print('test')
+
 selected_html2str=str(selected_html2.group(1))
 selected_html2str=selected_html2str.replace("/","")
 selected_html2str=selected_html2str.replace("\\","")
